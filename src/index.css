@@ -14,47 +14,46 @@ code {
 
 /* Custom NavBar Styles */
 .custom-navbar {
-  background-color: #565857; /* Example: Purple */
-  padding: 10px 0; /* Add some padding for better spacing */
-}
+  background-color: #565857;
+  padding: 10px 0;
 
 .navbar-brand {
-  font-size: 30px; /* Adjust font size */
-  line-height: 70px; /* Adjust line height */
-  padding: 10px 0; /* Adjust padding (top and bottom) */
+  font-size: 30px;
+  line-height: 70px;
+  padding: 10px 0;
 }
 
 .custom-navbar .navbar-brand {
-  color: #f5d3c8; /* Ensure the brand text is visible */
+  color: #f5d3c8;
   font-weight: bold;
   font-style: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .custom-navbar .nav-link {
-  color: white; /* Ensure the links are visible */
-  margin-right: 15px; /* Add spacing between links */
+  color: white;
+  margin-right: 15px;*/
 }
 
 .custom-navbar .nav-link:hover {
-  color: #f8f9fa; /* Change link color on hover */
+  color: #f8f9fa;/
 }
 
 
-/* Ensure the HTML and body take up the full height */
+
 html, body {
   height: 100%;
   margin: 0;
 }
 
-/* Flexbox layout for the app */
+
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Ensure the content grows to fill the available space */
+
 .flex-grow-1 {
   flex-grow: 1;
 }

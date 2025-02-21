@@ -14,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home; // Ensure this is a default export
+export default Home;

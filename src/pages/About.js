@@ -18,4 +18,4 @@ function About() {
   );
 }
 
-export default About; // Ensure this is a default export
+export default About;

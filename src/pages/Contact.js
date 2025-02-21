@@ -18,4 +18,4 @@ function Contact() {
   );
 }
 
-export default Contact; // Ensure this is a default export
+export default Contact;
